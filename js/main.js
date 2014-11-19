@@ -1,4 +1,6 @@
-document.querySelector(".nav-toggle").addEventListener("click", function() 
-{
-  this.classList.toggle("active");
+$(document).ready(function() {
+	$(".fancybox").fancybox({
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	});
 });
