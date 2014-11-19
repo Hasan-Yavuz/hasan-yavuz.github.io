@@ -1,4 +1,9 @@
 /*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+
+.fancybox {
+  margin: auto;
+}
+
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
