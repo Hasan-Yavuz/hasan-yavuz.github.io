@@ -19,6 +19,7 @@ html {
 
 h1 {
   font-family: sans-serif;
+    
 }
 
 /**                                                             HEADER **/
@@ -86,21 +87,27 @@ a li {
 
 /**                                                                 Portfolio **/
 
+.large-1-3 {
+    width: 33.33%;
+    padding: 0em;
+}
+
 .portfolio-piece {
     width: 90%;
-    margin: 0.5%;
+    margin: 5%;
     position: relative;
+    float: left;
 }
 
 .portfolio {
-    padding: 25em 0;
+    padding: 5em 0 0 0;
     background-color: #222;
 }
 
 /**                                                                 Contact **/
 
 .contact {
-    padding: 25em 0;
+    padding: 10em 0;
 }
 
 @media only screen (min-width: 240px) and (max-width: 600px) {
