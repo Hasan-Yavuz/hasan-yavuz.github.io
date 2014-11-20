@@ -73,7 +73,10 @@ p {
 }
 
 nav li:hover{
-	color:#bababa;
+    color: #fff;
+    background: #5b7d9a;
+    transition: background 0.2s ease-in;
+    transition: color 0.3s ease-in;
 }
 
 a li {
@@ -225,7 +228,6 @@ figcaption {
 	line-height:60px;
 
 	transition:background 0.2s ease-out;
-	transform: translate3d(0px,0px,30px) rotateY(0deg);
 }
 
 .bt_wrap:hover{
@@ -233,5 +235,5 @@ figcaption {
 }
 
 .bt_wrap:hover .icon{
-	background:#118bdc;
+	background:#5b7d9a;
 }
