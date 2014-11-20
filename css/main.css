@@ -141,12 +141,20 @@ figcaption {
     .resize {
       width: 100%;
     }
+    
+    .wordmark {
+      width: 200px;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
     .resize {
       width: 50%;
     }
+    
+    .wordmark {
+      width: 300px;
+}
 }
 
 /**                                                                 Contact **/
