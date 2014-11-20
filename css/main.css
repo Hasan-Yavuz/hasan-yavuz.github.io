@@ -79,7 +79,7 @@ a li {
   width: 43px;
   height: 62px;
   margin-top: 0.6em;
-  margin-left: 1.4em;
+  margin-left: 1.2em;
   position: fixed;
   vertical-align: middle;
 }
@@ -161,6 +161,10 @@ h6 {
 @media screen and (min-width: 240px) and (max-width: 600px) {
     .resize {
       width: 100%;
+    }
+    
+    .logo {
+      margin-left: 0.8em;
     }
     
     .wordmark {
