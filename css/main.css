@@ -180,8 +180,8 @@ figcaption {
       display: inline-block;
       padding: 0 1rem;
       font-family: 'lato', sans-serif;
-      font-size: 12px;
-      letter-spacing: 2px;
+      font-size: 10px;
+      letter-spacing: 1px;
       color: #666;
       text-transform: uppercase;
     }
