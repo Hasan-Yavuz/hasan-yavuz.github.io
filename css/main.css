@@ -77,7 +77,8 @@ a li {
 /**                                                                 About **/
 
 .about {
-    padding: 1em 0 14em;
+    padding: 1em 0 9em;
+    position: relative;
 }
 
 .me {
@@ -86,57 +87,47 @@ a li {
 
 /**                                                                 Portfolio **/
 
-.large-1-3 {
+.portfolio {
+    padding: 5em 0 5em;
+    background-color: #222;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.resize {
     width: 33.33%;
-    margin: 0 auto 1.5em;
-    padding: 0em;
+    margin-bottom: 1.5em;
     float: left;
     position: relative;
+
+    transition: all 500ms ease;
+    transform: translate3d(0,0,0);
 }
 
 .portfolio-piece {
-    width: 100%;
+    width: 90%;
 }
 
-.portfolio {
-    padding: 5em 0;
-    background-color: #222;
-    text-align: center;
-    text-decoration: none;
+figcaption {
+  color: white;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+    .resize {
+      width: 100%;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 960px) {
+    .resize {
+      width: 50%;
+    }
 }
 
 /**                                                                 Contact **/
 
 .contact {
     padding: 10em 0;
-}
-
-@media only screen (min-width: 240px) and (max-width: 600px) {
-    
-    .large-1-3 {
-        display: none;
-    }
-    
-    .small-1 {
-        width: 100%;
-        margin: 0 auto 1.5em;
-        padding: 0em;
-        float: left;
-        position: relative;
-    }
-}
-
-@media only screen (min-width: 600px) and (max-width: 720px) {
-
-    .large-1-3 {
-        display: none;
-    }
-    
-    .medium-1-2 {
-        width: 50%;
-        margin: 0 auto 1.5em;
-        padding: 0em;
-        float: left;
-        position: relative;
-    }
 }
