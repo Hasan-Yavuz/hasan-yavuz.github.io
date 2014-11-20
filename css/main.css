@@ -116,6 +116,7 @@ a li {
     position: relative;
     text-align: center;
     background: #fff;
+    -webkit-transform: translate3d(0, 0, 0);
 }
 
 .me {
