@@ -60,15 +60,15 @@ p {
   font-family: 'lato', sans-serif;
   font-size: 12px;
   letter-spacing: 4px;
-  color: #666;
+  color: #5b7d9a;
   text-transform: uppercase;
 }
 
 .main-header nav li:hover {
     color: #fff;
     background: #5b7d9a;
-    transition: background 0.2s ease-in;
-    transition: 0.3s ease-in;
+    transition: background 0.2s ease-in-out;
+    transition: 0.3s ease-in-out;
 }
 
 a li {
@@ -177,7 +177,6 @@ h6 {
       font-family: 'lato', sans-serif;
       font-size: 10px;
       letter-spacing: 1px;
-      color: #666;
       text-transform: uppercase;
     }
     
@@ -208,7 +207,6 @@ h6 {
       font-family: 'lato', sans-serif;
       font-size: 12px;
       letter-spacing: 3px;
-      color: #666;
       text-transform: uppercase;
 }
     
@@ -237,13 +235,14 @@ h6 {
 	display:inline-block;
 	width:auto;
 	height:auto;
-	background:#000;
+	background:#222;
 	width:100px;
 	height:100px;
+    
 	cursor:pointer;
 
 	perspective: 200px;
-	transition:background 0.3s ease-out;
+	transition:background 0.3s ease-in-out;
 }
 
 
@@ -257,13 +256,21 @@ h6 {
 	font-size:2em;
 	line-height:60px;
 
-	transition:background 0.6s ease-out;
+	transition:background 0.6s ease-in-out;
 }
 
-.bt_wrap:hover{
-	background:#222;
+.twitter-wrap:hover {
+	background:#00aced;
 }
 
-.bt_wrap:hover .icon{
-	background:#5b7d9a;
+.linkedin-wrap:hover {
+	background:#007bb6;
+}
+
+.behance-wrap:hover {
+	background:#1769ff;
+}
+
+.mail-wrap:hover {
+	background:#3e7aad;
 }
