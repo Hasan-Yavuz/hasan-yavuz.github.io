@@ -29,7 +29,7 @@ p {
 /**                                                             HEADER **/
 
 .main-header {
-  position: relative;
+  position: fixed;
   left: 0;
   top: 0;
   width: 100%;
@@ -72,11 +72,14 @@ p {
   text-transform: uppercase;
 }
 
-nav li:hover{
+.main-header nav li:hover {
     color: #fff;
     background: #5b7d9a;
     transition: background 0.2s ease-in;
     transition: 0.3s ease-in;
+}
+
+a:link {
 }
 
 a li {
@@ -97,8 +100,9 @@ a li {
   background: transparent url("../images/coludy_mountains_nature-wide.jpg") no-repeat center top;
   background-size: cover;
   position: relative;
-  padding: 20em 0;
+  padding: 15em 0;
   text-align: center;
+  margin-top: 5rem;
 }
 
 .wordmark {
@@ -177,16 +181,6 @@ figcaption {
       letter-spacing: 2px;
       color: #666;
       text-transform: uppercase;
-}
-    
-    .main-header nav li:hover {
-      color: #fff;
-      background: #5b7d9a;
-    }
-    
-    .main-header nav li:selection {
-      color: #fff;
-      background: #5b7d9a;
     }
     
     .main-header nav {
@@ -194,7 +188,12 @@ figcaption {
       text-align: center;
       margin: 0 2%;
       float: right;
-}
+    }
+    
+    .main-header nav li:selection {
+      color: #fff;
+      background: #5b7d9a;
+    }
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
