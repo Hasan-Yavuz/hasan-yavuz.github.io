@@ -29,7 +29,7 @@ p {
 /**                                                             HEADER **/
 
 .main-header {
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   width: 100%;
@@ -179,6 +179,11 @@ figcaption {
       text-transform: uppercase;
 }
     
+    .main-header nav li:hover {
+      color: #fff;
+      background: #5b7d9a;
+    }
+    
     .main-header nav li:selection {
       color: #fff;
       background: #5b7d9a;
@@ -187,7 +192,7 @@ figcaption {
     .main-header nav {
       font-size: 1rem;
       text-align: center;
-      margin: 0 4%;
+      margin: 0 2%;
       float: right;
 }
 }
