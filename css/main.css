@@ -76,7 +76,7 @@ nav li:hover{
     color: #fff;
     background: #5b7d9a;
     transition: background 0.2s ease-in;
-    transition: color 0.3s ease-in;
+    transition: 0.3s ease-in;
 }
 
 a li {
@@ -179,6 +179,11 @@ figcaption {
       text-transform: uppercase;
 }
     
+    .main-header nav li:selection {
+      color: #fff;
+      background: #5b7d9a;
+    }
+    
     .main-header nav {
       font-size: 1rem;
       text-align: center;
@@ -241,7 +246,7 @@ figcaption {
 	cursor:pointer;
 
 	perspective: 200px;
-	transition:background 0.2s ease-out;
+	transition:background 0.3s ease-out;
 }
 
 
@@ -255,7 +260,7 @@ figcaption {
 	font-size:2em;
 	line-height:60px;
 
-	transition:background 0.2s ease-out;
+	transition:background 0.6s ease-out;
 }
 
 .bt_wrap:hover{
