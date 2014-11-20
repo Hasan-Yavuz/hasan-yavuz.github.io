@@ -168,6 +168,23 @@ figcaption {
     .landing {
       padding: 10em 0;
     }
+    
+    .main-header nav li {
+      display: inline-block;
+      padding: 0 1rem;
+      font-family: 'lato', sans-serif;
+      font-size: 12px;
+      letter-spacing: 2px;
+      color: #666;
+      text-transform: uppercase;
+}
+    
+    .main-header nav {
+      font-size: 1rem;
+      text-align: center;
+      margin: 0 4%;
+      float: right;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 960px) {
@@ -182,6 +199,17 @@ figcaption {
     .landing {
       padding: 15em 0;
     }
+
+    .main-header nav li {
+      display: inline-block;
+      padding: 0 1.5rem;
+      font-family: 'lato', sans-serif;
+      font-size: 12px;
+      letter-spacing: 3px;
+      color: #666;
+      text-transform: uppercase;
+}
+    
 }
 
 /**                                                                 Contact **/
