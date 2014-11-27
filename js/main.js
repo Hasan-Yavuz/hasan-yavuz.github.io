@@ -1,6 +1,6 @@
 var $win = $(window);
-var $about = $('.about');
-
+var $landing = $('.landing');
+var $wordmark = $('.wordmark');
 $(document).ready(function() {
 	$(".fancybox").fancybox({
 		openEffect	: 'none',
@@ -11,6 +11,7 @@ $(document).ready(function() {
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 
-	$about.css('margin-top', '-' + scrollPos/1 + 'px');
+	$landing.css('background-position', 'center ' + scrollPos/2 + 'px');
+    $wordmark.css('top', '' + scrollPos/2 + 'px');
 });
 
