@@ -14,6 +14,12 @@ h1 {
   font-family: 'lato', sans-serif;
 }
 
+h2 {
+  font-family: 'adobe garamond pro', serif;
+  font-weight: 100;
+  font-size: 40px;
+}
+
 p {
   line-height: 25px;
 }
@@ -120,7 +126,7 @@ a li {
 }
 
 .me {
-  padding: 8em 10% 8em;
+  padding: 4em 10% 4em;
 }
 
 .portrait {
@@ -152,7 +158,6 @@ a li {
 
 .portfolio-piece {
     width: 100%;
-    margin-bottom: -1.6em;
 }
 
 h6 {
@@ -242,6 +247,10 @@ h6 {
       width: 100%;
     }
     
+     h2 {
+      font-size: 30px;
+    }
+    
     .wordmark {
       width: 200px;
     }
@@ -280,6 +289,10 @@ h6 {
 @media screen and (min-width: 601px) and (max-width: 960px) {
     .resize {
       width: 50%;
+    }
+    
+    h2 {
+      font-size: 35px;
     }
     
     .wordmark {
