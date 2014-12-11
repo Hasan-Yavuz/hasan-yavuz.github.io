@@ -161,6 +161,7 @@ a li {
     width: 100%;
     height: 100%;
     color: #fff;
+    margin-top: -1.9rem;
     
     transition: opacity 0.2s ease-in-out;
 }
@@ -177,24 +178,11 @@ h6 {
     letter-spacing: 1px;
 }
 
-.caption {
-  position: relative;
-  color: white;
-  margin-top: -2.2em;
-  margin-bottom: -0.9em;
-  font-family: 'lato', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-
 /**                                                                 Contact **/
 
 .contact {
     padding: 10em 0;
-    margin-top: -0.2em;
+    margin-top: -2em;
     background-color: #222;
     position: relative;
 }

@@ -1,0 +1,30 @@
+body {
+  background-image: url(../assets/tree_bark.png);
+  text-align: center
+}
+
+h1 {
+  font-family: 'lato', sans-serif;
+  font-size: 110px;
+  margin-top: -2rem;
+  margin-bottom: -4rem;
+  color: #666;
+}
+
+h2 {
+  font-family: 'lato', sans-serif;
+  margin-top: 4rem;
+  font-size: 35px;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+  color: #444;
+  font-size: 18px;
+}
+
+.grim-reaper {
+  width: 50%;
+  margin-right: 50%;
+  margin-top: %;
+}
