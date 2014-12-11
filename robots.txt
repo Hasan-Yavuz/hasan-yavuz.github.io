@@ -1,0 +1,12 @@
+#Hashesare comments
+
+#http://en.wikipedia.org/wiki/Robots_exclusion_standard
+#http://www.robotstxt.org
+
+Sitemap: http://hasanyavuz.ca/sitemap.xml
+
+User-agent: *
+
+Disallow: /folder-name-that-we-dont-want-to-show/
+Disallow: /tmp/
+Disallow: /assets/

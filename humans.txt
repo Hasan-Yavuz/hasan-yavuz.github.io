@@ -1,0 +1,20 @@
+# PEOPLE
+
+Designer: Hasan Yavuz
+E-mail: hi@hasanyavuz.ca
+Location: Ottawa, Canada
+Website: hasanyavuz.ca
+GitHub: https://github.com/hasan-yavuz
+Twitter: https://twitter.com/hasanyavuz91
+Behance: https://www.behance.net/HasanYavuz
+LinkedIn: https://www.linkedin.com/pub/hasan-yavuz/8a/b05/676
+
+# THANKS
+
+Thanks to Thomas Bradley for transferring code juice from his brain to mine.
+
+# TOOLS
+
+Brackets
+GitHub
+Photoshop
