@@ -24,7 +24,71 @@ p {
 }
 
 .grim-reaper {
-  width: 50%;
-  margin-right: 50%;
-  margin-top: %;
+  width: 500px;
+  margin-top: 5%;
+  position: relative;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 180px;
+  background-color: #3f8de8;
+  font: hidden;
+    
+  transition:background 0.2s ease-in-out;
+}
+
+.button:hover {
+  background: #1869c9;
+}
+
+@media screen and (min-width: 240px) and (max-width: 600px) {
+
+h1 {
+  font-family: 'lato', sans-serif;
+  font-size: 50px;
+  margin-top: -2rem;
+  margin-bottom: -4rem;
+  color: #666;
+}
+
+h2 {
+  font-family: 'lato', sans-serif;
+  font-size: 25px;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+  color: #444;
+  font-size: 16px;
+}
+    
+.grim-reaper {
+  width: 300px;
+}
+    
+}
+
+@media screen and (min-width: 601px) and (max-width: 960px) {
+
+h1 {
+  font-family: 'lato', sans-serif;
+  font-size: 70px;
+  margin-top: -2rem;
+  margin-bottom: -4rem;
+  color: #666;
+}
+
+h2 {
+  font-family: 'lato', sans-serif;
+  font-size: 30px;
+}
+
+p {
+  font-family: 'lato', sans-serif;
+  color: #444;
+  font-size: 16px;
+}   
+    
 }
