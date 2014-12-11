@@ -89,13 +89,13 @@ a li {
   margin-left: 1.2em;
   position: absolute;
   vertical-align: middle;
-    z-index: 9;
+  z-index: 9;
 }
 
 /**                                                                 Background **/
 
 .landing {
-  background: transparent url("../images/coludy_mountains_nature-wide.jpg") no-repeat center top;
+  background: transparent url("../images/background-image.jpg") no-repeat center top;
   transform: translate3d(0,0,0);
   background-size: cover;
   position: relative;
@@ -120,12 +120,12 @@ a li {
 }
 
 .me {
-  padding: 0 10% 2em;
+  padding: 8em 10% 8em;
 }
 
 .portrait {
   position: relative;
-  padding-top: 4em;
+  margin-top: 3rem;
   overflow: hidden;
 }
 
@@ -152,11 +152,13 @@ a li {
 
 .portfolio-piece {
     width: 100%;
+    margin-bottom: -1.6em;
 }
 
 h6 {
     margin: 0;
     padding: 0;
+    letter-spacing: 1px;
 }
 
 .caption {
