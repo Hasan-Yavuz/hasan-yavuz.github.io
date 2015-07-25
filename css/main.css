@@ -89,20 +89,27 @@ p {
 }
 
 a li {
-    color: #fff;
-    text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 i {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 auto;
-    padding: 0 2em;
+  color: #fff;
+  text-decoration: none;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+
+i:hover {
+  color: #5b7d9a;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .logo {
-    width: 43px;
-    height: 62px;
+  width: 43px;
+  height: 62px;
 }
 
 .logo-link {
