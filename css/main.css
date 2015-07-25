@@ -188,13 +188,12 @@ h6 {
 
 /**                                                                 Contact **/
 
-/* .contact {
+.contact {
     padding: 10em 0;
     margin-top: -2em;
     background-color: #222;
     position: relative;
 }
-*/
 
 .flex {
   display: flex;
