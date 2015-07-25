@@ -213,9 +213,6 @@ h6 {
 	width:100px;
 	height:100px;
     margin: 0 auto;
-    
-	cursor:pointer;
-
 	perspective: 200px;
 	transition:background 0.3s ease-in-out;
 }
