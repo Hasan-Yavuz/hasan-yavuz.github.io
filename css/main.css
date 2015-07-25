@@ -195,19 +195,21 @@ h6 {
     position: relative;
 }
 
-.flex
-	display flex
-	-webkit-display flex
-	flex-direction row
-	justify-content space-around
-	align-items center
-	font-size 2em
-	height 100%
+.flex {
+	display: flex;
+	-webkit-display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 2em;
+	height: 100%;
+}
 
 /* just for demo, vertically center row */
-.row
-	display flex
-	-webkit-display flex
-	align-items center
-	height 100% !important
+.row {
+	display: flex;
+	-webkit-display: flex;
+	align-items: center;
+	height: 100%;
+}
 
