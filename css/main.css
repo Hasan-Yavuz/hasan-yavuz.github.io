@@ -93,6 +93,11 @@ a li {
     text-decoration: none;
 }
 
+i {
+    color: #fff;
+    text-decoration: none;
+}
+
 .logo {
     width: 43px;
     height: 62px;
