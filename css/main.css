@@ -199,6 +199,8 @@ h6 {
 .flex {
   display: inline-block;
   -webkit-display: inline-block;
+  margin: 0 auto;
+  padding: 0 2rem;
   flex-direction: row;
   align-items: center;
   font-size: 2em;
