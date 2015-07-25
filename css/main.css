@@ -197,8 +197,8 @@ h6 {
 }
 
 .flex {
-  display: inline-block;
-  -webkit-display: inline-block;
+  display: flex;
+  -webkit-display: flex;
   flex-direction: row;
   align-items: center;
   font-size: 2em;
@@ -206,8 +206,8 @@ h6 {
 }
 /* just for demo, vertically center row */
 .row {
-  display: inline-block;
-  -webkit-display: inline-block;
+  display: flex;
+  -webkit-display: flex;
   align-items: center;
   height: 100% !important;
 }
