@@ -230,11 +230,11 @@ h6 {
 @media (min-width: 525px) {
 
   i {
-    font-size: 60%;  
+    font-size: 1.5em;  
   }
 
   li {
-    font-size: 60%;  
+    font-size: 10px;  
   }
 
 }
