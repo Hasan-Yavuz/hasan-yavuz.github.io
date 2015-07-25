@@ -195,55 +195,19 @@ h6 {
     position: relative;
 }
 
-#wrapper {
-	position: relative;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	text-align:center;
-	top:50%;
-	margin-top:-50px;
-}
+.flex
+	display flex
+	-webkit-display flex
+	flex-direction row
+	justify-content space-around
+	align-items center
+	font-size 2em
+	height 100%
 
-.bt_wrap{
-	display: inline-block;
-	width:auto;
-	height:auto;
-	background:#222;
-	width:100px;
-	height:100px;
-    margin: 0 auto;
-	perspective: 200px;
-	transition:background 0.3s ease-in-out;
-}
-
-
-.icon {
-	position:absolute;
-	top:0;
-	left:20px;
-	margin-top:20px;
-	width:60px;
-	height:60px;
-	font-size:2em;
-	line-height:60px;
-
-	transition:background 0.6s ease-in-out;
-}
-
-.twitter-wrap:hover {
-	background:#00aced;
-}
-
-.linkedin-wrap:hover {
-	background:#007bb6;
-}
-
-.behance-wrap:hover {
-	background:#1769ff;
-}
-
-.mail-wrap:hover {
-	background:#3e7aad;
-}
+/* just for demo, vertically center row */
+.row
+	display flex
+	-webkit-display flex
+	align-items center
+	height 100% !important
 
