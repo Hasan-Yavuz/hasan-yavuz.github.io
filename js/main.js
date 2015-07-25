@@ -8,7 +8,9 @@ $(document).ready(function() {
 	});
 });
 
-$(document).foundation() {
+(function () {
+    $(document).foundation();
+}.call(this));
 
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
