@@ -128,7 +128,7 @@ a li {
 }
 
 .me {
-  padding: 3.5em 10% 3.5em;
+  padding: 4em 10% 4em;
 }
 
 .portrait {
@@ -199,7 +199,7 @@ h6 {
 }
 
 .bt_wrap{
-	display: inline-block;
+	display: block;
 	width:auto;
 	height:auto;
 	background:#222;
