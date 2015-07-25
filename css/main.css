@@ -197,18 +197,17 @@ h6 {
 }
 
 .flex {
-  display: flex;
-  -webkit-display: flex;
+  display: inline-block;
+  -webkit-display: inline-block;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
   font-size: 2em;
   height: 100%;
 }
 /* just for demo, vertically center row */
 .row {
-  display: flex;
-  -webkit-display: flex;
+  display: inline-block;
+  -webkit-display: inline-block;
   align-items: center;
   height: 100% !important;
 }
