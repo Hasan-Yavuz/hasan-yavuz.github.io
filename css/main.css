@@ -229,10 +229,12 @@ h6 {
 
 @media (max-width: 525px) {
 
-i {
-  font-size: 60%;  
-}
+  i {
+    font-size: 60%;  
+  }
 
-li {
-  font-size: 60%;  
+  li {
+    font-size: 60%;  
+  }
+
 }
