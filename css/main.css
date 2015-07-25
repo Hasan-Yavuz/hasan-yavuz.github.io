@@ -106,7 +106,7 @@ a li {
   transform: translate3d(0,0,0);
   background-size: cover;
   position: relative;
-  padding: 15em 0;
+  padding: 10em 0;
   text-align: center;
   margin-top: 5rem;
 }
