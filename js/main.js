@@ -8,6 +8,8 @@ $(document).ready(function() {
 	});
 });
 
+$(document).foundation() {
+
 $win.on('scroll', function () {
 	var scrollPos = $win.scrollTop();
 
