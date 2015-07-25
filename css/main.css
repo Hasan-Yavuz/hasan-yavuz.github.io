@@ -96,6 +96,8 @@ a li {
 i {
     color: #fff;
     text-decoration: none;
+    margin: 0 auto;
+    padding: 0 2em;
 }
 
 .logo {
