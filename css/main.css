@@ -21,6 +21,13 @@ h2 {
     color: #444;
 }
 
+h3 {
+  font-family: 'adobe garamond pro', serif;
+  font-weight: 100;
+  font-size: 26px;
+    color: #666;
+}
+
 p {
   line-height: 25px;
 }
