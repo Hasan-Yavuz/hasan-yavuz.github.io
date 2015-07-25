@@ -202,6 +202,7 @@ h6 {
   align-items: center;
   font-size: 2.5em;
   height: 100%;
+  text-decoration: none;
 }
 /* just for demo, vertically center row */
 .row {
