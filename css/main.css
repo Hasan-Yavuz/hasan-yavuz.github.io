@@ -227,7 +227,7 @@ h6 {
   height: 100% !important;
 }
 
-@media (max-width: 525px) {
+@media (min-width: 525px) {
 
   i {
     font-size: 60%;  
