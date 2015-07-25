@@ -17,7 +17,7 @@ h1 {
 h2 {
   font-family: 'adobe garamond pro', serif;
   font-weight: 100;
-  font-size: 32px;
+  font-size: 36px;
     color: #444;
 }
 
@@ -106,7 +106,7 @@ a li {
   transform: translate3d(0,0,0);
   background-size: cover;
   position: relative;
-  padding: 11em 0;
+  padding: 12em 0;
   text-align: center;
   margin-top: 5rem;
 }
@@ -127,7 +127,7 @@ a li {
 }
 
 .me {
-  padding: 3em 10% 3em;
+  padding: 3.5em 10% 3.5em;
 }
 
 .portrait {
